@@ -48,6 +48,8 @@ class SystemSetting extends Form
                 ->default(BaseModel::STATUS_CLOSE);
             $this->switch('is_open_img_code', admin_trans('system-setting.fields.is_open_img_code'))
                 ->default(BaseModel::STATUS_CLOSE);
+            $this->switch('is_cn_challenge', admin_trans('system-setting.fields.is_cn_challenge'))
+                ->default(BaseModel::STATUS_OPEN);
             $this->switch('is_open_search_pwd', admin_trans('system-setting.fields.is_open_search_pwd'))
                 ->default(BaseModel::STATUS_CLOSE);
             $this->switch('is_open_google_translate', admin_trans('system-setting.fields.is_open_google_translate'))

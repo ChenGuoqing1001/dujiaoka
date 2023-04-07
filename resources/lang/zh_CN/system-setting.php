@@ -28,6 +28,7 @@ return [
         'manage_email' => '管理员邮箱',
         'is_open_anti_red' => '是否开启微信/QQ防红',
         'is_open_img_code' => '是否开启图形验证码',
+        'is_cn_challenge' => '中国大陆访问需要人机验证',
         'is_open_search_pwd' => '是否开启查询密码',
         'is_open_google_translate' => '是否开启google翻译',
 
