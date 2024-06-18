@@ -1,0 +1,38 @@
+body {
+    font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    background-color: #f8f9fa; /* 采用非常浅的背景色 */
+    color: #212529; /* 深色文字提高可读性 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to right, #ffffff, #f1f1f1); /* 轻柔的渐变背景 */
+}
+
+.status {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    background: #fff; /* 纯白色背景 */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05); /* 更细致的阴影，增加深度感 */
+    border: 1px solid #eee; /* 添加细边框增加结构定义 */
+}
+
+.loader {
+    width: 40px; /* 保持加载器较大尺寸 */
+    height: 40px;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.1); /* 更浅的灰色边框 */
+    border-top-color: #007bff; /* 使用品牌色作为高亮显示 */
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
